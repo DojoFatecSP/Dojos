@@ -1,7 +1,7 @@
 import unittest
 import enfeites
 
-class TestEnfeites(unittest.TestCase):
+class TestEnfeites(unittest.TestCase):    
     def test_uma_bolinha(self):
         entrada = [[2, 10001]]
         saida = [10001]
@@ -58,3 +58,6 @@ class TestEnfeites(unittest.TestCase):
         91,
         3]
         self.assertEqual(enfeites.solve(entrada), saida)
+
+if __name__ == '__main__':
+    unittest.main()
